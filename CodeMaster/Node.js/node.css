@@ -1,0 +1,44 @@
+body {
+    background: #303030;
+    user-select: none;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    height: 85%;
+    width: 100%;
+    font-size: 3em;
+}
+
+h1 {
+    animation-name: textAn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes textAn {
+    0% {
+        color: currentColor;
+    }
+
+    50% {
+        color: yellow;
+        text-shadow: 2px 2px 1em yellow;
+    }
+}
+
+p {
+    display: block;
+    color: orange;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+b {
+    font-family: Ubuntu Mono;
+}

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #303030;
+}
+
+h1 {
+    color: orange;
+    margin: 1em;
+    font-size: 2.5em;
+    font-family: ubuntu mono;
+}
+
+h2 {
+    color: yellow;
+}
+
+.form {
+    padding: 3em;
+}
+
+form {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    border-bottom: 2px solid white;
+    background: transparent;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#sub-btn {
+    background: orange;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: 300ms;
+}
+
+#sub-btn:hover {
+    background: yellow;
+    color: black;
+    box-shadow: 5px 5px 1em yellow;
+}
+
+/* Footer */
+.footer {
+    text-transform: uppercase;
+    font-family: JetBrains Mono;
+    margin-top: 1.5em;
+    color: lightgrey;
+}
