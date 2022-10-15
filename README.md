@@ -4,3 +4,7 @@ _____
 
 _____
 With CodeMaster, you can learn coding!
+
+_____
+# NOTE
+All the courses are COMING SOON! LOL.
